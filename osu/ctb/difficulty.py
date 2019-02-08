@@ -166,7 +166,6 @@ class Difficulty(object):
         last_direction = 0
         player_width_half = self.player_width / 2
         player_width_half *= 0.8
-        print("player_width_half: {}".format(player_width_half))
         last = player_width_half
 
         for i in range(len(self.difficulty_objects) - 1):

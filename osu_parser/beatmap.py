@@ -28,7 +28,6 @@ class Beatmap(object):
         if "ApproachRate" not in self.difficulty.keys():    #Fix old osu version
             self.difficulty["ApproachRate"] = self.difficulty["OverallDifficulty"]
 
-        print("Beatmap parsed!")
 
     def parse_beatmap(self):
         """
